@@ -19,13 +19,13 @@ Instructions
 
     `gedit ~/.local/share/applications/qBittorrent.desktop`
     
-  a. Find Exec option and prepend `/path/to/qbittorrent-unity-launcher.py` to command
+5. Find Exec option and prepend `/path/to/qbittorrent-unity-launcher.py` to command
     
-      `Exec=/path/to/qbittorrent-unity-launcher/qbittorrent-unity-launcher.py qbittorrent %U`
+    `Exec=/path/to/qbittorrent-unity-launcher/qbittorrent-unity-launcher.py qbittorrent %U`
 
-  b. Make copied .desktop file executable.
+6. Make copied .desktop file executable.
     
-      `chmod +x ~/.local/share/applications/qBittorrent.desktop`
+    `chmod +x ~/.local/share/applications/qBittorrent.desktop`
 
-5. Now use the new .desktop file to open qBittorent or drag to the the Unity Dash.
+7. You are done! Now you can use the new .desktop file to open qBittorent or drag to the the Unity Dash.
 
