@@ -4,8 +4,8 @@
 import  urllib2
 import json
 
-from qbittorrentrpc.constants import DEFAULT_PORT, DEFAULT_TIMEOUT
-from qbittorrentrpc.utils import LOGGER, id_generator
+from qbittorrentrpc.constants import DEFAULT_PORT, DEFAULT_TIMEOUT, LOGGER
+from qbittorrentrpc.utils import id_generator
 
 class Client(object):
     user = None
