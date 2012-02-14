@@ -1,0 +1,10 @@
+<h1>Instructions</h1>
+
+<ol>
+  <li>
+    Copy /usr/share/applications/qBittorrent.desktop to ~/.local/share/applications<br />
+    <code>
+      cp /usr/share/applications/qBittorrent.desktop ~/.local/share/applications/qBittorrent.desktop
+    </code>
+  </li>
+</ol>
