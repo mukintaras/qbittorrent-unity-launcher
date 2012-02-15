@@ -29,3 +29,5 @@ Instructions
 
 7. You are done! Now you can use the new .desktop file to open qBittorent or drag to the the Unity Dash.
 
+
+Based in the code of Kriomant https://github.com/kriomant/transmission-unity-launcher
