@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Licensed under the MIT license.
 
+
 class QbittorrentError(Exception):
     """
     This exception is raised when there has occured an error related to
@@ -14,6 +15,7 @@ class QbittorrentError(Exception):
     def __str__(self):
         if self.original:
             original_name = type(self.original).__name__
-            return '%s Original exception: %s, "%s"' % (self.message, original_name, str(self.original))
+            message = '%s Original exception: %s, "%s"' % (self.message, original_name, str(self.original))
+            return message
         else:
             return self.message
